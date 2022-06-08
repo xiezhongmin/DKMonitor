@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'DKMonitorDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for DKMonitorDemo
+  pod 'DKStackBacktrack', :path=>"../"
+  pod 'DKAPMMonitor', :path=>"../"
+  pod 'DKKit', :git=>'https://github.com/xiezhongmin/DKKit.git'
+
+  target 'DKMonitorDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'DKMonitorDemoUITests' do
+    # Pods for testing
+  end
+
+end

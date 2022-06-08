@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F73866150187423F4E9FB7 /* Pods_DKMonitorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3799FE21B96D5A0B6022D7 /* Pods_DKMonitorDemo.framework */; };
+		58D34F9B0BE1569A489CA2B1 /* Pods_DKMonitorDemo_DKMonitorDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FCC76EBF69798CA6EE1031 /* Pods_DKMonitorDemo_DKMonitorDemoUITests.framework */; };
+		841BE50D27E89AA900CC4D40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841BE50C27E89AA900CC4D40 /* AppDelegate.m */; };
+		841BE51327E89AA900CC4D40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841BE51227E89AA900CC4D40 /* ViewController.m */; };
+		841BE51627E89AA900CC4D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841BE51427E89AA900CC4D40 /* Main.storyboard */; };
+		841BE51827E89AAC00CC4D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841BE51727E89AAC00CC4D40 /* Assets.xcassets */; };
+		841BE51B27E89AAC00CC4D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841BE51927E89AAC00CC4D40 /* LaunchScreen.storyboard */; };
+		841BE51E27E89AAC00CC4D40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841BE51D27E89AAC00CC4D40 /* main.m */; };
+		841BE52827E89AAD00CC4D40 /* DKMonitorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841BE52727E89AAD00CC4D40 /* DKMonitorDemoTests.m */; };
+		841BE53227E89AAD00CC4D40 /* DKMonitorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841BE53127E89AAD00CC4D40 /* DKMonitorDemoUITests.m */; };
+		841BE53427E89AAD00CC4D40 /* DKMonitorDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841BE53327E89AAD00CC4D40 /* DKMonitorDemoUITestsLaunchTests.m */; };
+		C7754A8032F6FEC8552F4B88 /* Pods_DKMonitorDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C3F6B278DD7561587E829F /* Pods_DKMonitorDemoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841BE52427E89AAC00CC4D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841BE50027E89AA900CC4D40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841BE50727E89AA900CC4D40;
+			remoteInfo = DKMonitorDemo;
+		};
+		841BE52E27E89AAD00CC4D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841BE50027E89AA900CC4D40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841BE50727E89AA900CC4D40;
+			remoteInfo = DKMonitorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D3799FE21B96D5A0B6022D7 /* Pods_DKMonitorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKMonitorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		560EF12ACD7F292E240E05BA /* Pods-DKMonitorDemo-DKMonitorDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKMonitorDemo-DKMonitorDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-DKMonitorDemo-DKMonitorDemoUITests/Pods-DKMonitorDemo-DKMonitorDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C500C87A0C966059D8BED34 /* Pods-DKMonitorDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKMonitorDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-DKMonitorDemoTests/Pods-DKMonitorDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		841BE50827E89AA900CC4D40 /* DKMonitorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKMonitorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841BE50B27E89AA900CC4D40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		841BE50C27E89AA900CC4D40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		841BE51127E89AA900CC4D40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		841BE51227E89AA900CC4D40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		841BE51527E89AA900CC4D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841BE51727E89AAC00CC4D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841BE51A27E89AAC00CC4D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		841BE51C27E89AAC00CC4D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841BE51D27E89AAC00CC4D40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		841BE52327E89AAC00CC4D40 /* DKMonitorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKMonitorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841BE52727E89AAD00CC4D40 /* DKMonitorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKMonitorDemoTests.m; sourceTree = "<group>"; };
+		841BE52D27E89AAD00CC4D40 /* DKMonitorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKMonitorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841BE53127E89AAD00CC4D40 /* DKMonitorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKMonitorDemoUITests.m; sourceTree = "<group>"; };
+		841BE53327E89AAD00CC4D40 /* DKMonitorDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKMonitorDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		8482AF6F28508E8A00F4FC00 /* DKStackBacktrack.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = DKStackBacktrack.podspec; path = ../DKStackBacktrack.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8482AF7028508E9500F4FC00 /* DKAPMMonitor.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = DKAPMMonitor.podspec; path = ../DKAPMMonitor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		849DE92328476BAC00DA4FAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../Modules/DKStackBacktrack/README.md; sourceTree = "<group>"; };
+		849DE92628476BBD00DA4FAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../Modules/DKAPMMonitor/README.md; sourceTree = "<group>"; };
+		88C3F6B278DD7561587E829F /* Pods_DKMonitorDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKMonitorDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97658498621571B49EB27949 /* Pods-DKMonitorDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKMonitorDemoTests.release.xcconfig"; path = "Target Support Files/Pods-DKMonitorDemoTests/Pods-DKMonitorDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7FCC76EBF69798CA6EE1031 /* Pods_DKMonitorDemo_DKMonitorDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKMonitorDemo_DKMonitorDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2728D4CB4127279A03D3CC /* Pods-DKMonitorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKMonitorDemo.release.xcconfig"; path = "Target Support Files/Pods-DKMonitorDemo/Pods-DKMonitorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D89109152593F159E65E378F /* Pods-DKMonitorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKMonitorDemo.debug.xcconfig"; path = "Target Support Files/Pods-DKMonitorDemo/Pods-DKMonitorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F6F10D580305A201571C6F7C /* Pods-DKMonitorDemo-DKMonitorDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKMonitorDemo-DKMonitorDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-DKMonitorDemo-DKMonitorDemoUITests/Pods-DKMonitorDemo-DKMonitorDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841BE50527E89AA900CC4D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F73866150187423F4E9FB7 /* Pods_DKMonitorDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841BE52027E89AAC00CC4D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7754A8032F6FEC8552F4B88 /* Pods_DKMonitorDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841BE52A27E89AAD00CC4D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D34F9B0BE1569A489CA2B1 /* Pods_DKMonitorDemo_DKMonitorDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841BE4FF27E89AA900CC4D40 = {
+			isa = PBXGroup;
+			children = (
+				849DE91A2847618800DA4FAF /* Podspec Metadata */,
+				841BE50A27E89AA900CC4D40 /* DKMonitorDemo */,
+				841BE52627E89AAD00CC4D40 /* DKMonitorDemoTests */,
+				841BE53027E89AAD00CC4D40 /* DKMonitorDemoUITests */,
+				841BE50927E89AA900CC4D40 /* Products */,
+				F38B56C8DCCA43DDB7F89FAA /* Pods */,
+				CD650D1F9E3B459DDE3A09AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		841BE50927E89AA900CC4D40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841BE50827E89AA900CC4D40 /* DKMonitorDemo.app */,
+				841BE52327E89AAC00CC4D40 /* DKMonitorDemoTests.xctest */,
+				841BE52D27E89AAD00CC4D40 /* DKMonitorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841BE50A27E89AA900CC4D40 /* DKMonitorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				841BE50B27E89AA900CC4D40 /* AppDelegate.h */,
+				841BE50C27E89AA900CC4D40 /* AppDelegate.m */,
+				841BE51127E89AA900CC4D40 /* ViewController.h */,
+				841BE51227E89AA900CC4D40 /* ViewController.m */,
+				841BE54027E89B6C00CC4D40 /* Supporting Files */,
+			);
+			path = DKMonitorDemo;
+			sourceTree = "<group>";
+		};
+		841BE52627E89AAD00CC4D40 /* DKMonitorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				841BE52727E89AAD00CC4D40 /* DKMonitorDemoTests.m */,
+			);
+			path = DKMonitorDemoTests;
+			sourceTree = "<group>";
+		};
+		841BE53027E89AAD00CC4D40 /* DKMonitorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				841BE53127E89AAD00CC4D40 /* DKMonitorDemoUITests.m */,
+				841BE53327E89AAD00CC4D40 /* DKMonitorDemoUITestsLaunchTests.m */,
+			);
+			path = DKMonitorDemoUITests;
+			sourceTree = "<group>";
+		};
+		841BE54027E89B6C00CC4D40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841BE51427E89AA900CC4D40 /* Main.storyboard */,
+				841BE51727E89AAC00CC4D40 /* Assets.xcassets */,
+				841BE51927E89AAC00CC4D40 /* LaunchScreen.storyboard */,
+				841BE51C27E89AAC00CC4D40 /* Info.plist */,
+				841BE51D27E89AAC00CC4D40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849DE91A2847618800DA4FAF /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				849DE92228476B8B00DA4FAF /* DKStackBacktrack */,
+				849DE92128476B8200DA4FAF /* DKAPMMonitor */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		849DE92128476B8200DA4FAF /* DKAPMMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				8482AF7028508E9500F4FC00 /* DKAPMMonitor.podspec */,
+				849DE92628476BBD00DA4FAF /* README.md */,
+			);
+			name = DKAPMMonitor;
+			sourceTree = "<group>";
+		};
+		849DE92228476B8B00DA4FAF /* DKStackBacktrack */ = {
+			isa = PBXGroup;
+			children = (
+				8482AF6F28508E8A00F4FC00 /* DKStackBacktrack.podspec */,
+				849DE92328476BAC00DA4FAF /* README.md */,
+			);
+			name = DKStackBacktrack;
+			sourceTree = "<group>";
+		};
+		CD650D1F9E3B459DDE3A09AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D3799FE21B96D5A0B6022D7 /* Pods_DKMonitorDemo.framework */,
+				B7FCC76EBF69798CA6EE1031 /* Pods_DKMonitorDemo_DKMonitorDemoUITests.framework */,
+				88C3F6B278DD7561587E829F /* Pods_DKMonitorDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F38B56C8DCCA43DDB7F89FAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D89109152593F159E65E378F /* Pods-DKMonitorDemo.debug.xcconfig */,
+				BD2728D4CB4127279A03D3CC /* Pods-DKMonitorDemo.release.xcconfig */,
+				560EF12ACD7F292E240E05BA /* Pods-DKMonitorDemo-DKMonitorDemoUITests.debug.xcconfig */,
+				F6F10D580305A201571C6F7C /* Pods-DKMonitorDemo-DKMonitorDemoUITests.release.xcconfig */,
+				5C500C87A0C966059D8BED34 /* Pods-DKMonitorDemoTests.debug.xcconfig */,
+				97658498621571B49EB27949 /* Pods-DKMonitorDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841BE50727E89AA900CC4D40 /* DKMonitorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841BE53727E89AAD00CC4D40 /* Build configuration list for PBXNativeTarget "DKMonitorDemo" */;
+			buildPhases = (
+				2D9945D5B2AD12FD13DF60E3 /* [CP] Check Pods Manifest.lock */,
+				841BE50427E89AA900CC4D40 /* Sources */,
+				841BE50527E89AA900CC4D40 /* Frameworks */,
+				841BE50627E89AA900CC4D40 /* Resources */,
+				4BAE2398C71B4ECBE41C4B98 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKMonitorDemo;
+			productName = DKMonitorDemo;
+			productReference = 841BE50827E89AA900CC4D40 /* DKMonitorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		841BE52227E89AAC00CC4D40 /* DKMonitorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841BE53A27E89AAD00CC4D40 /* Build configuration list for PBXNativeTarget "DKMonitorDemoTests" */;
+			buildPhases = (
+				A81BE9CF6E6F8E0F86AC659C /* [CP] Check Pods Manifest.lock */,
+				841BE51F27E89AAC00CC4D40 /* Sources */,
+				841BE52027E89AAC00CC4D40 /* Frameworks */,
+				841BE52127E89AAC00CC4D40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841BE52527E89AAC00CC4D40 /* PBXTargetDependency */,
+			);
+			name = DKMonitorDemoTests;
+			productName = DKMonitorDemoTests;
+			productReference = 841BE52327E89AAC00CC4D40 /* DKMonitorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		841BE52C27E89AAD00CC4D40 /* DKMonitorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841BE53D27E89AAD00CC4D40 /* Build configuration list for PBXNativeTarget "DKMonitorDemoUITests" */;
+			buildPhases = (
+				96E6E2AE448E34CBC6EEF5A0 /* [CP] Check Pods Manifest.lock */,
+				841BE52927E89AAD00CC4D40 /* Sources */,
+				841BE52A27E89AAD00CC4D40 /* Frameworks */,
+				841BE52B27E89AAD00CC4D40 /* Resources */,
+				5E4FF8A50683D8EAA1AB78EC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841BE52F27E89AAD00CC4D40 /* PBXTargetDependency */,
+			);
+			name = DKMonitorDemoUITests;
+			productName = DKMonitorDemoUITests;
+			productReference = 841BE52D27E89AAD00CC4D40 /* DKMonitorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841BE50027E89AA900CC4D40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					841BE50727E89AA900CC4D40 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					841BE52227E89AAC00CC4D40 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 841BE50727E89AA900CC4D40;
+					};
+					841BE52C27E89AAD00CC4D40 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 841BE50727E89AA900CC4D40;
+					};
+				};
+			};
+			buildConfigurationList = 841BE50327E89AA900CC4D40 /* Build configuration list for PBXProject "DKMonitorDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841BE4FF27E89AA900CC4D40;
+			productRefGroup = 841BE50927E89AA900CC4D40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841BE50727E89AA900CC4D40 /* DKMonitorDemo */,
+				841BE52227E89AAC00CC4D40 /* DKMonitorDemoTests */,
+				841BE52C27E89AAD00CC4D40 /* DKMonitorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841BE50627E89AA900CC4D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841BE51B27E89AAC00CC4D40 /* LaunchScreen.storyboard in Resources */,
+				841BE51827E89AAC00CC4D40 /* Assets.xcassets in Resources */,
+				841BE51627E89AA900CC4D40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841BE52127E89AAC00CC4D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841BE52B27E89AAD00CC4D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D9945D5B2AD12FD13DF60E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DKMonitorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BAE2398C71B4ECBE41C4B98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DKMonitorDemo/Pods-DKMonitorDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DKMonitorDemo/Pods-DKMonitorDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DKMonitorDemo/Pods-DKMonitorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E4FF8A50683D8EAA1AB78EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DKMonitorDemo-DKMonitorDemoUITests/Pods-DKMonitorDemo-DKMonitorDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DKMonitorDemo-DKMonitorDemoUITests/Pods-DKMonitorDemo-DKMonitorDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DKMonitorDemo-DKMonitorDemoUITests/Pods-DKMonitorDemo-DKMonitorDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96E6E2AE448E34CBC6EEF5A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DKMonitorDemo-DKMonitorDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A81BE9CF6E6F8E0F86AC659C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DKMonitorDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841BE50427E89AA900CC4D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841BE51327E89AA900CC4D40 /* ViewController.m in Sources */,
+				841BE50D27E89AA900CC4D40 /* AppDelegate.m in Sources */,
+				841BE51E27E89AAC00CC4D40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841BE51F27E89AAC00CC4D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841BE52827E89AAD00CC4D40 /* DKMonitorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841BE52927E89AAD00CC4D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841BE53227E89AAD00CC4D40 /* DKMonitorDemoUITests.m in Sources */,
+				841BE53427E89AAD00CC4D40 /* DKMonitorDemoUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841BE52527E89AAC00CC4D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841BE50727E89AA900CC4D40 /* DKMonitorDemo */;
+			targetProxy = 841BE52427E89AAC00CC4D40 /* PBXContainerItemProxy */;
+		};
+		841BE52F27E89AAD00CC4D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841BE50727E89AA900CC4D40 /* DKMonitorDemo */;
+			targetProxy = 841BE52E27E89AAD00CC4D40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		841BE51427E89AA900CC4D40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841BE51527E89AA900CC4D40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		841BE51927E89AAC00CC4D40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841BE51A27E89AAC00CC4D40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841BE53527E89AAD00CC4D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		841BE53627E89AAD00CC4D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841BE53827E89AAD00CC4D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D89109152593F159E65E378F /* Pods-DKMonitorDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RQZLXBL7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DKMonitorDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duke.DKMonitorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com_duke_dev;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		841BE53927E89AAD00CC4D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2728D4CB4127279A03D3CC /* Pods-DKMonitorDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RQZLXBL7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DKMonitorDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duke.DKMonitorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com_duke_dev;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		841BE53B27E89AAD00CC4D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C500C87A0C966059D8BED34 /* Pods-DKMonitorDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XYFGP8X89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duke.DKMonitorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKMonitorDemo.app/DKMonitorDemo";
+			};
+			name = Debug;
+		};
+		841BE53C27E89AAD00CC4D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97658498621571B49EB27949 /* Pods-DKMonitorDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XYFGP8X89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duke.DKMonitorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKMonitorDemo.app/DKMonitorDemo";
+			};
+			name = Release;
+		};
+		841BE53E27E89AAD00CC4D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560EF12ACD7F292E240E05BA /* Pods-DKMonitorDemo-DKMonitorDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XYFGP8X89;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duke.DKMonitorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DKMonitorDemo;
+			};
+			name = Debug;
+		};
+		841BE53F27E89AAD00CC4D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F10D580305A201571C6F7C /* Pods-DKMonitorDemo-DKMonitorDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XYFGP8X89;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duke.DKMonitorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DKMonitorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841BE50327E89AA900CC4D40 /* Build configuration list for PBXProject "DKMonitorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841BE53527E89AAD00CC4D40 /* Debug */,
+				841BE53627E89AAD00CC4D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841BE53727E89AAD00CC4D40 /* Build configuration list for PBXNativeTarget "DKMonitorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841BE53827E89AAD00CC4D40 /* Debug */,
+				841BE53927E89AAD00CC4D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841BE53A27E89AAD00CC4D40 /* Build configuration list for PBXNativeTarget "DKMonitorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841BE53B27E89AAD00CC4D40 /* Debug */,
+				841BE53C27E89AAD00CC4D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841BE53D27E89AAD00CC4D40 /* Build configuration list for PBXNativeTarget "DKMonitorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841BE53E27E89AAD00CC4D40 /* Debug */,
+				841BE53F27E89AAD00CC4D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841BE50027E89AA900CC4D40 /* Project object */;
+}
