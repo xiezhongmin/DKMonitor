@@ -29,6 +29,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
+  s.source_files = 'Modules/*.{h,m}'
+
+  s.public_header_files = 'Modules/**/Classes/**/**/*.{h}'
+
   s.subspec 'DKAPMMonitor' do |sp|
       sp.source_files = 'Modules/DKAPMMonitor/Classes/**/**/*.{h,m}'
       sp.public_header_files = 'Modules/DKAPMMonitor/Classes/**/**/*.{h}'
