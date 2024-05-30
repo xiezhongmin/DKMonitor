@@ -32,6 +32,16 @@ TODO: Add long description of the pod here.
   s.source_files = 'Modules/**/Classes/**/**/*.{h,m}'
 
   s.public_header_files = 'Modules/**/Classes/**/**/*.{h}'
+
+  s.subspec 'DKAPMMonitor' do |sp|
+      sp.source_files = 'Modules/DKAPMMonitor/Classes/**/**/*.{h,m}'
+      sp.public_header_files = 'Modules/DKAPMMonitor/Classes/**/**/*.{h}'
+  end
+
+  s.subspec 'DKStackBacktrack' do |sp|
+      sp.source_files = 'Modules/DKStackBacktrack/Classes/**/**/*.{h,m}'
+      sp.public_header_files = 'Modules/DKStackBacktrack/Classes/**/**/*.{h}'
+  end
   
   s.frameworks = 'UIKit'
   
